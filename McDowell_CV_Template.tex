@@ -21,15 +21,15 @@
 %% SOFTWARE.
 
 % The font could be set to Windows-specific Calibri by using the 'calibri' option
-\documentclass[]{mcdowellcv}
+\documentclass[calibri]{mcdowellcv}
 
 % For mathematical symbols
 \usepackage{amsmath}
 
 % Set applicant's personal data for header
-\name{Gayle L. McDowell}
-\address{123 Spruce St, Apt 35 \linebreak Philadelphia PA 19103}
-\contacts{(555) 555-1212 \linebreak gayle@careercup.com}
+\name{Viet Duc Than}
+\address{112b John Street, Sheffield, \linebreak England, UK}
+\contacts{+447565489009 \linebreak unityloper@gmail.com}
 
 \begin{document}
 
@@ -37,51 +37,33 @@
 	\makeheader
 	
 	% Print the content
-	\begin{cvsection}{Employment}
-		\begin{cvsubsection}{Software Engineer, Intern}{Apple Computer}{Summer 2004}
-			iChat AV			
-			\begin{itemize}
-				\item Reduced time to render the user’s buddy list by 75\% by implementing prediction algorithm.
-				\item Implemented iChat integration with OS X Spotlight Search by creating tool which extracts metadata from saved chat transcripts and provides metadata to a system-wide search database.
-				\item Redesigned chat file format and implemented backwards compatibility for search.
-			\end{itemize}
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Lincoln, England, UK}{University of Lincoln}{Oct 2020 -- Present}
+			Master of Science in Game Development and Design \\
+			Coursework: Advanced Programming, Advanced Graphics, Prototyping and Evaluation for Games, Cloud Computing, Game Design Methods and Approaches, VR/AR in Games
 		\end{cvsubsection}
-		
-		\begin{cvsubsection}{Lead Student Ambassador}{Microsoft Corporation}{Fall 2003 -- Spring 2005}	
-			\begin{itemize}
-				\item Promoted to Lead Student Ambassador in Fall 2004; supervised 10 -- 15 Student Ambassadors.
-				\item Created and taught Computer Science course, CSE 099: Software Design and Development.
-			\end{itemize}
-		\end{cvsubsection}
-		
-		\begin{cvsubsection}{Head Teaching Assistant}{University of Pennsylvania}{Fall 2001 -- Spring 2005}		
-			\begin{itemize}
-				\item Courses: Advanced Java III, Software Engineering, Mathematical Foundations of Computer Science I \& II.
-				\item Promoted to Head TA in Fall 2004; led weekly meetings and supervised four other TAs.
-			\end{itemize}
-		\end{cvsubsection}
-		
-		\begin{cvsubsection}{Software Design Engineer, Intern}{Microsoft Corporation}{Summers 2001 -- 2003}
-			Visual Studio Core (Summer 2003)		
-			\begin{itemize}
-				\item Implemented a user interface for the VS open file switcher (ctrl-tab) and extended it to tool windows.
-				\item Created service to provide gradient across VS and VS add-ins. Optimized service via caching.
-			\end{itemize}
-			Programmer Productivity Research Center (Summers 2001, 2002)
-			\begin{itemize}
-				\item Built app to compute similarity of all methods in a code base; reduced time from $O(n^2)$ to $O(n\ log\ n)$. 
-				\item Created test case generation tool which creates random XML docs from XML Schema.
-			\end{itemize}
+
+		\begin{cvsubsection}{Hanoi, Vietnam}{Hanoi University of Science and Technology}{Sept 2015 -- Sept 2020}
+			Degree of Engineering in Electronics and Telecommunications, GPA: \textbf{3.71/4} (top 1/500) \\
+			Coursework: Computer Architecture, Object-Oriented Analysis and Design, Computer Networks, Operating Systems, Embedded System Design, Multimedia \& Advanced Multimedia, Advanced Programming
 		\end{cvsubsection}
 	\end{cvsection}
 	
-	\begin{cvsection}{Education}
-		\begin{cvsubsection}{Philadelphia, PA}{University of Pennsylvania}{Fall 2000 -- May 2005}
+	\begin{cvsection}{Employment}
+		\begin{cvsubsection}{Software Engineer}{FPT Software}{Jan 2020 -- Present}
 			\begin{itemize}
-				\item M.S.E. in Computer and Information Science, May 2005. GPA: 3.6
-				\item B.S.E. in Computer Science Engineering with Minor in Mathematics, May 2005.  In-major GPA: 3.4.
-				\item Graduate Coursework: Software Foundations; Computer Architecture; Algorithms; Artificial Intelligence; Comparison of Learning Algorithms; Computational Theory.
-				\item Undergraduate Coursework: Operating Systems; Databases; Algorithms; Programming Languages; Comp. Architecture; Engineering Entrepreneurship; Calculus III.
+				\item Working as an AI Engineer on model deployment to different platforms, such as Android, iOS, Windows, Linux, etc.
+				\item Top 100 Employee of the year 2020.
+				\item Increased the segmentation model accuracy to 95\% by refining dataset.
+				\item Accelerated running time for model with 10x times faster than original code using direct memory access via pointer.
+				\item Worked directly with customer following Agile methodology.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Software Engineer, Intern}{Topica Edutech}{Apr 2019 -- Jul 2019}	
+			\begin{itemize}
+				\item Improved the Handwritten Recognition model's accuracy to 94\% with synthetic data using CycleGAN.
+				\item Created RESTful APIs.
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
@@ -89,9 +71,9 @@
 	\begin{cvsection}{Technical Experience}
 		\begin{cvsubsection}{Projects}{}{}
 			\begin{itemize}
-				\item \textbf{Multi-User Drawing Tool} (2004). Electronic classroom where multiple users can view and simultaneously draw on a “chalkboard” with each person’s edits synchronized.  C++, MFC
-				\item \textbf{Synchronized Calendar} (2003 – 2004). Desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users.  C\#.NET, SQL, XML
-				\item \textbf{Operating System} (2002).  UNIX-style OS with scheduler, file system, text editor and calculator. C
+				\item \textbf{Jewelry Virtual TryOn} (2022). An iOS application letting user try virtual jewelries. Swift
+				\item \textbf{Windows Media Filter} (2021). Acted as a middleware between OS and Application. The driver processed any requested frame from applications and applied image processing based on face detection algorithm before handing it over to the requested application.  C++, Windows Driver
+				\item \textbf{Nail Polish virtual tryon} (2021). An iOS application letting user virtually try different fingernail polish color before printing. Xamarin C\#
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
@@ -99,8 +81,9 @@
 	\begin{cvsection}{Additional Experience and Awards}
 		\begin{cvsubsection}{}{}{}	
 			\begin{itemize}
-				\item \textbf{Instructor (2003 – 2005):} Taught two full-credit Computer Science courses; average ratings of 4.8 out of 5.0.
-				\item \textbf{Third Prize, Senior Design Projects:} Awarded 3rd prize for Synchronized Calendar project, out of 100 projects.
+				\item \textbf{Valedictorian Awards:} Graduated with the highest GPA among the school of Electronics and Telecommunications.
+				\item \textbf{Scholarship for Outstanding Performance (2015--2020):} Awarded with scholarship for outstanding performance, all 5 years
+				\item \textbf{Math competition (2014):} First Prize in CASIO math competition.
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
@@ -108,8 +91,8 @@
 	\begin{cvsection}{Languages and Technologies}
 		\begin{cvsubsection}{}{}{}	
 			\begin{itemize}
-				\item C++; C; Java; Objective-C; C\#.NET; SQL; JavaScript; XSLT; XML (XSD) Schema 
-				\item Visual Studio; Microsoft SQL Server; Eclipse; XCode; Interface Builder
+				\item C++; C; Swift; Objective-C; C\#.NET; SQL; Python 
+				\item Visual Studio; Visual Studio Code; XCode; Jupyter
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
